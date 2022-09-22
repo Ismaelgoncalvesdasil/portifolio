@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital@1 & display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#menu{background-color: rgb(80, 80, 80) ;}
+
+#menu ul{
+    max-width: 400px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(80, 80, 80);
+}
+
+#menu ul li{
+    display:inline;}
+
+#menu ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu ul li a:hover{
+   background-color:rgb(144, 148, 211);
+}
+.sobreb{background-image: url("/fundo\ sobre.jpg");}
+
+.ht{color: #fff;
+    text-align: center}
+
+.ps{color: #fff;
+    text-align: center;}    
+
+   .enviar {
+        background-color: #66FFFF;
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border: 1px solid;
+        color: black;
+    }
+    .etx{margin: 6px 0px 0px 19px;
+        font-size: 20px;}
+        .ps{ padding: 20px;
+            margin-left: 20px;
+            color: red;
+            font-size: 30px;}
