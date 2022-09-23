@@ -31,13 +31,17 @@
 #menu ul li a:hover{
    background-color:rgb(144, 148, 211);
 }
-.sobreb{background-image: url("/fundo\ sobre.jpg");}
+.sobreb{background-color: aqua;}
 
-.ht{color: #fff;
-    text-align: center}
+.ht{margin: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;}
 
-.ps{color: #fff;
-    text-align: center;}    
+.ps{color:red;
+    text-align: center;
+    font-weight: bold;}    
 
    .enviar {
         background-color: #66FFFF;
